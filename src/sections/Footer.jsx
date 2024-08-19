@@ -35,7 +35,7 @@ const Footer = () => {
               <ul>
                 {section.links.map((link) => (
                   <li className="mt-3 text-white-400 font-montserrat text-base leading-normal hover: text-slate-gray cursor-pointer">
-                    <a href="">{link.name}</a> 
+                    <p className="cursor-pointer">{link.name}</p> 
                   </li>
                 ))}
               </ul>
@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer">
           <img 
             src={copyrightSign}
-            alt="cop right sign"
+            alt="copyright sign"
             width={20}
             height={20}
             className="rounded-full m-0"
